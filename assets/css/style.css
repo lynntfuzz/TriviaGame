@@ -12,6 +12,13 @@ h3 {
     padding:20px;
 }
 
+.image-div {
+    margin: 25px;
+}
+
+.main-container {
+    padding: 20px;
+}
 .start-container {
     position: absolute;
     top: 80px;

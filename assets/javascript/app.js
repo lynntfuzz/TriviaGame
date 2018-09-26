@@ -2,7 +2,7 @@ $(function() {
     console.log( "ready!" );
     
     var QUESTION_TIME_LIMIT = 30;
-    var RESULT_DISPLAY_TIME= 3000;
+    var RESULT_DISPLAY_TIME= 4000;
     var currentQuestion = -1;
     var numCorrect = 0;
     var addedListeners = false;
