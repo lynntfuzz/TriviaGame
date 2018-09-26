@@ -78,11 +78,15 @@ h3 {
 
 #answer-image {
     display:block;
-    width: 40%;
+    width: 50%;
     margin-left:auto;
     margin-right:auto;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#info-blurb {
+    margin: 15px;
 }
 
 .end-of-game-container {

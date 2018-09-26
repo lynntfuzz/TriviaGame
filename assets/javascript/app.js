@@ -2,7 +2,7 @@ $(function() {
     console.log( "ready!" );
     
     var QUESTION_TIME_LIMIT = 30;
-    var RESULT_DISPLAY_TIME= 5000;
+    var RESULT_DISPLAY_TIME= 3000;
     var currentQuestion = -1;
     var numCorrect = 0;
     var addedListeners = false;
@@ -31,9 +31,9 @@ $(function() {
 
     var question3 = {
         "question":"What did Scotty warn Gloria about before dying?",
-        "answer1":"Beware of the dwarf.",
-        "answer2":"Don't forget your umbrella.",
-        "answer3":"Don't go to the Opera, there will be a murder.",
+        "answer1":"Beware of the dwarf!",
+        "answer2":"Don't forget your umbrella!",
+        "answer3":"Don't go to the Opera, there will be a murder!",
         "answer4":"Beware of the Bishop.",
         "correct-answer":"answer1",
         "associated-image":"assets/images/movie.jpeg",
@@ -59,7 +59,7 @@ $(function() {
         "answer4":"Brian Dennehy",
         "correct-answer":"answer2",
         "associated-image":"assets/images/burgess.jpg",
-        "info":"as Gloria's landlord, Burgess Meredith's character was very useful, especially because he is a black belt in karate."    
+        "info":"As Gloria's landlord, Mr. Hennessey, Burgess Meredith's character was very useful, especially because he is a black belt in karate."    
     }
 
     var question6 = {
@@ -73,7 +73,51 @@ $(function() {
         "info":"While Stanley Tibbets might enjoy a massage or binocular viewing in his spare time, his main profession is as a conductor."    
     }
 
-    var quiz = [question1, question2, question3, question4, question5, question6 ];
+    var question7 = {
+        "question":"Dudley Moore's role of Stanley Tibbets was written for:",
+        "answer1":"Tim Conway",
+        "answer2":"Don Rickles",
+        "answer3":"Robin Williams",
+        "answer4":"Steve Martin",
+        "correct-answer":"answer1",
+        "associated-image":"assets/images/timconway.jpg",
+        "info":"Colin Higgins originally wrote the role of Stanley Tibbets for Tim Conway, but Tim Conway turned down the role."    
+    }
+
+    var question8 = {
+        "question":"Who attacked and kidnapped Gloria in the library?",
+        "answer1":"Rupert Stiltskin",
+        "answer2":"The Dwarf",
+        "answer3":"The Albino",
+        "answer4":"Whitey Jackson",
+        "correct-answer":"answer3",
+        "associated-image":"assets/images/albino.jpeg",
+        "info":"William Frankfather played the character of Whitey Jackson, an albino. William Frankfather is not actually an albino. He died in 1998 at the UCLA hospital due to complications of liver disease."    
+    }
+
+    var question9 = {
+        "question":"During the car chase in the grand finale, where is the tourist couple in the back of the limo from?",
+        "answer1":"Japan",
+        "answer2":"Kansas",
+        "answer3":"Germany",
+        "answer4":"China",
+        "correct-answer":"answer1",
+        "associated-image":"assets/images/japanese-couple.jpg",
+        "info":"The Japanese couple in the back of the taxi don't speak English, but they are able to explain to them that Chevy Chase's character is a detective like Kojak. The portrayal of this couple is now seen as racist and cut out of television airings of Foul Play."    
+    }
+
+    var question10 = {
+        "question":"What is the the name of the musical conducted by Dudley Moore's character at the end of the movie?",
+        "answer1":"Kind Hearts and Coronets",
+        "answer2":"Oklahoma!",
+        "answer3":"The Mikado",
+        "answer4":"Flower Drum Song",
+        "correct-answer":"answer3",
+        "associated-image":"assets/images/mikado.jpg",
+        "info":"Stanley Tibbets is conducting The Mikado while the Pope is in the audience and the assassination attempt takes place."    
+    }
+
+    var quiz = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10 ];
     var intervalId;
     var clockRunning = false;
     var timeLeft = QUESTION_TIME_LIMIT;
