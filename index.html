@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Foul Play Trivia</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="start-container">
+            <h1 class="start-element">Foul Play Trivia Game</h1>
+            <button class="btn-primary start-element" id="start-btn">Start Game</button>
+        </div>
+        <div class="question-container">
+            <h1 class="start-element">Time Remaining:<span id="time-remaining"></span> </h1>
+            <h3 id="actual-question"></h3>
+            <h5 class="glowing" id="answer1"></h5>
+            <h5 class="glowing" id="answer2"></h5>
+            <h5 class="glowing" id="answer3"></h5>
+            <h5 class="glowing" id="answer4"></h5>   
+        </div>
+        <div class="answer-container">
+            <h3 id="notification"></h3>
+            <h3 id="explanation"></h3>
+            <img id="answer-image" src="" alt="Image">
+            <p id="info-blurb"></p>
+        </div>
+        <div class="end-of-game-container">
+            <h1>Game Over!</h1>
+            <h3 id="number-correct"></h3>
+            <button class="btn-primary restart-element" id="restart-btn">Restart Game</button>
+        </div>
+        <img id="movie-poster" src="assets/images/foul-play.jpg" alt="Movie Poster">
+    </div>
+</body>
+</html>

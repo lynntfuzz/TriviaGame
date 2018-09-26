@@ -1,0 +1,108 @@
+body {
+    position: relative;
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h3 {
+    padding:20px;
+}
+
+.start-container {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    height: 500px;
+    width: 700px;
+    background:white;
+    border: solid black 2px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.start-element {
+    /* width: 70%;
+    position: center;
+    justify-content: center;
+    align-content: center;
+    margin:auto; */
+}
+
+ #start-btn {
+    background: coral;
+} 
+
+.question-container {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    height: 500px;
+    width: 700px;
+    background:white;
+    border: solid black 2px;
+    display: none;
+    padding: 15px;
+}
+
+.glowing {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing:hover { 
+    outline: none;
+    background: coral;
+    border-color: coral;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.answer-container {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    height: 500px;
+    width: 700px;
+    background:white;
+    border: solid black 2px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#answer-image {
+    display:block;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.end-of-game-container {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    height: 500px;
+    width: 700px;
+    background:white;
+    border: solid black 2px;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#movie-poster {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    height: 300px;
+}
