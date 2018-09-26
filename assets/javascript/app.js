@@ -26,7 +26,7 @@ $(function() {
         "answer4":"She had a car accident with him",
         "correct-answer":"answer3",
         "associated-image":"assets/images/incar.jpg",
-        "info":"Gloria drove home from the cocktail party in her yellow convertible Volkswagon bug, and she saw a man on the side of the road with his car broken down. He was hitchiking and Gloria decided to pull over and pick him up, because her friend at the party told her she needed a little more excitement in her life.", 
+        "info":"Gloria drove home from the cocktail party in her yellow convertible Volkswagon bug, and she picked up hitchhiker with his car broken down. She impulsively agreed to go to a movie with him because her best friend told her she needed to take more risks.", 
     }
 
     var question3 = {

@@ -2,7 +2,7 @@ body {
     position: relative;
     background-image: url("../images/wallpaper.jpg");
     background-repeat: no-repeat, repeat;
-    height: 500px; /* You must set a specified height */
+    height: 550px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -16,23 +16,14 @@ h3 {
     position: absolute;
     top: 80px;
     right: 80px;
-    height: 500px;
+    height: 550px;
     width: 700px;
     background:white;
     border: solid black 2px;
     display: block;
     text-align: center;
-    vertical-align: middle;
     justify-content: center;
     margin: 0 auto;
-}
-
-.start-element {
-    /* width: 70%;
-    position: center;
-    justify-content: center;
-    align-content: center;
-    margin:auto; */
 }
 
  #start-btn {
@@ -43,7 +34,7 @@ h3 {
     position: absolute;
     top: 80px;
     right: 80px;
-    height: 500px;
+    height: 550px;
     width: 700px;
     background:white;
     border: solid black 2px;
@@ -67,7 +58,7 @@ h3 {
     position: absolute;
     top: 80px;
     right: 80px;
-    height: 500px;
+    height: 550px;
     width: 700px;
     background:white;
     border: solid black 2px;
@@ -93,7 +84,7 @@ h3 {
     position: absolute;
     top: 80px;
     right: 80px;
-    height: 500px;
+    height: 550px;
     width: 700px;
     background:white;
     border: solid black 2px;
